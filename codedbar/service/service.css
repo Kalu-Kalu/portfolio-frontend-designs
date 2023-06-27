@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(#222 50%, #fff 50%)
+}
+
+.container {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.container .box {
+    position: relative;
+    width: 250px;
+    height: auto;
+    background: #fff;
+    padding: 70px 30px 40px;
+    box-shadow: 0 15px 45px rgba(0,0,0,.1);
+    transition: .5s;
+}
+
+.container .box::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    border-bottom: 5px solid #222;
+}
+.container .box::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #222;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform .5s;
+
+}
+.container .box:hover:before {
+    transform: scaleY(1);
+    transform-origin: bottom;
+    transition: transform .5s;
+}
+
+.container .box h2 {
+    position: absolute;
+    left: 25px;
+    top: 60px;
+    font-size: 4em;
+    font-weight: bold;
+    z-index: 1;
+    opacity: 0.1;
+    transition: .5s;
+    font-family: 'Oswald';
+}
+
+.container .box:hover h2 {
+    opacity: 1;
+    color: #fff;
+    transform: translateY(-70%);
+} 
+.container .box h3 {
+    position: relative;
+    margin-top: 10px;
+    font-size: 1.5em;
+    z-index: 2;
+    color: #000;
+    transition: .5s;
+    font-family: 'Poppins';
+}
+
+.container .box p {
+    position: relative;
+    font-size: 1.1em;
+    margin-top: 5px;
+    z-index: 2;
+    color: #111;
+    transition: .5s;
+    font-family: 'Poppins';
+}
+.container .box:hover h3,
+.container .box:hover p {
+    color: #fff;
+}
