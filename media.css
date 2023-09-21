@@ -1,0 +1,805 @@
+/* ---------------Home Page Responsiveness ------------------------ */
+
+@media only screen and (min-width: 1008px) and (max-width: 1200px) {
+  div.navigation {
+    width: 55%;
+    padding-right: 25px;
+  }
+  div.navigation button {
+    margin: 15px;
+  }
+
+  div.logo {
+    width: 200px;
+  }
+  div.logo img {
+    width: 100px;
+    margin-top: 20px;
+  }
+  .frontpic {
+    max-width: 85%;
+  }
+  .image {
+    height: 22em;
+  }
+  .card {
+    max-width: 23%;
+  }
+  .card .logoImage img {
+    width: 5rem;
+  }
+  
+  .section-4holder {
+    margin-top: 20px;
+  }
+  .section-5 {
+    background-attachment: scroll;
+    height: 550px;
+  }
+  .section-5 h2 {
+    font-size: 1.7em;
+    padding-left: 10px;
+  }
+  .staffPicsHolder {
+    top: 5px;
+  }
+  .staffpics {
+    margin: 10px 20px;
+    width: 25%;
+  }
+  .section-6 {
+    padding: 40px;
+  }
+  .registerholder {
+    font-size: 1.2em;
+    max-width: 70%;
+    padding: 15px 20px;
+    margin-top: -130px;
+  }
+  div.btn button {
+    padding: 5px 10px;
+    font-size: 0.9em;
+  }
+  .footer iframe {
+    height: 300px;
+    max-width: 400px;
+    text-align: justify;
+  }
+}
+
+@media only screen and (min-width: 641px) and (max-width: 1007px) {
+  div.logo {
+    left: 40px;
+  }
+  div.logo a img {
+    width: 65px;
+    margin-top: 14px;
+  }
+  div.navigation {
+    display: none;
+  }
+  div.menubtn {
+    display: block;
+  }
+  header {
+    padding-left: 50px;
+    background: transparent;
+  }
+  .hero-container {
+    background-attachment: scroll;
+  }
+  .hero--text {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .section-1 {
+    height: 350px;
+    padding: 0px;
+  }
+  .aboutText > h2 {
+    font-size: 1.7em;
+  }
+  .aboutText > p {
+    font-size: 1em;
+  }
+  .section-2 {
+    height: 380px;
+    padding: 40px;
+  }
+  .image {
+    height: 15em;
+    width: 200%;
+  }
+  .section-2 > div > h2 {
+    font-size: 1.7em;
+  }
+  .showcase {
+    margin-top: 30px;
+    max-width: 100%;
+  }
+  .slider {
+    width: 100%;
+  }
+  .section-3 {
+    display: block;
+    padding: 40px;
+    background-attachment: scroll;
+  }
+  .card--holder {
+    display: block;
+    padding: 0 40px;
+    background-attachment: scroll;
+  }
+  .card {
+    max-width: 100%;
+    height: 220px;
+    margin-bottom: 40px;
+  }
+  .section-3 .section3 h2 {
+    margin: 0px 0 30px 5px;
+  }
+  .section-4 {
+    height: 350px;
+    padding: 0 50px;
+  }
+  section.section-4 h2 {
+    font-size: 1.7em; 
+  }
+  .section-4holder {
+    max-width: 100%;
+    height: 15em;
+  }
+  .recip-text {
+    font-size: 1.25em;
+    line-height: 1.1;
+  }
+  .showcase {
+    height: 300px;
+  }
+  .section-4holder button {
+    padding: 7px 12px;
+    font-size: 0.5;
+  }
+  .imagerecip {
+    background-position: -240px -100px;
+  }
+  .section-5 {
+    background-attachment: scroll;
+    height: 600px;
+  }
+
+  .section-5  .section h2 {
+    margin-top: 0px;
+  }
+  
+  .staffPicsHolder {
+    margin-bottom: 30px;
+  }
+
+  .staffpics {
+    margin: 20px 30px;
+    width: 23%;
+    
+  }
+  .section-6 .registerholder div.btn button {
+    padding: 10px 15px;
+    font-size: 1em;
+  }
+  .section-6 {
+    background-color: var(--offwhite);
+  }
+
+  .section-6 .registerholder {
+    max-width: 80%;
+    margin: 0px;
+    font-size: 1.2em;
+    padding: 30px 50px;
+  }
+  .footer {
+    padding: 0 40px 40px;
+  }
+  .footer iframe,
+  .location {
+    display: none;
+  }
+  .footer h3 {
+    font-size: 1em;
+  }
+  .footer nav a {
+    font-size: 0.9em;
+    letter-spacing: 0;
+    text-align: justify;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  div.logo {
+    width: 100%;
+    height: 300px;
+    left: 30px;
+    margin-top: 20px;
+  }
+  
+  div.logo a img {
+    width: 70px;
+    top: 0px;
+  }
+
+  header {
+    display: none;
+  }
+
+  div#open.menubtn {
+    display: block;
+    top: 20px;
+    right: 30px;
+  }
+  
+  div#close.menubtn-close {
+    top: 20px;
+    right: 30px;
+  }
+  
+  .menubtn i {
+    font-size: 25px;
+  }
+  .hero-container {
+    background-attachment: scroll;
+    height: 100vh;
+  }
+
+  .hero--text {
+    padding: 200px 30px;
+    max-width: 100%;
+  }
+  div.hero--text h1 {
+    font-size: 3.5em;
+  }
+  div.hero--text h3 {
+    font-size: 1.7em;
+  }
+  div.hero--text p {
+    font-size: 1.2em;
+    line-height: 1.5;
+  }
+  div.hero--text button {
+    padding: 10px 15px;
+    font-size: 1.3em;
+  }
+  div.section-1 {
+    padding: 0 50px;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .aboutpics {
+    display: none;
+  }
+  .oki--pics {
+    margin: 50px 0px 20px;
+    padding: 100px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.8);
+    background-image: url(./images/oki--1.png);
+    background-position: center;
+    background-size: 200px;
+    background-repeat: no-repeat;
+  }
+  .aboutText {
+    width: 100%;
+    padding: 0 0px 20px;
+  }
+  .section-1 .aboutText h2 {
+    text-align: center;
+  }
+  .aboutText p {
+    font-size: 1.2em;
+    text-align: center;
+  }
+  .section-2 {
+    height: auto;
+    padding: 0px 30px;
+    font-size: 1em;
+    background: #000;
+  }
+  .section-2 > div > h2 {
+    display: none;
+  }
+  .image {
+    height: 10em;
+    width: 250%;
+  }
+  
+  .image:hover {
+    transform: scale(1);
+  }
+  .section-3 {
+    display: block;
+    padding: 5px;
+    background-attachment: scroll;
+  }
+  .section-3 h2{
+    display: none;
+  }
+  .card--holder{
+    display: block;
+    margin-top: 60px;
+  }
+  .card h2 {
+    font-size: 1.3em;
+  }
+  .card {
+    max-width: 100%;
+    padding: 20px;
+    height: 200px;
+    margin-bottom: 30px;
+    font-size: 1em;
+  }
+
+  div.up{transform: translate(0);}
+
+  .section-4 {
+    width: 100%;
+    height: 600px;
+    padding: 0 30px;
+    margin-bottom: 30px;
+  }
+  .section-4holder {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .section-4 .section h2 {
+    display: none;
+    /* font-size: 1.8em; */
+  }
+
+  .recipe-text {
+    position: relative;
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    font-size: 1em;
+    line-height: 1.3;
+    
+}
+.showcase-text {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.recipe-text p{
+    position: relative;
+    text-align: justify;
+}
+ 
+  .section-4holder button {
+    position: relative;
+    font-size: 1.2em;
+    width: 100%;
+  }
+
+  .imagerecip {
+    background-position: center;
+    background-size: auto;
+    border-radius: 10px 10px 0 0;
+  }
+  .section-5 {
+    padding: 30px 0;
+    background-attachment: scroll;
+    width: 100%;
+    height: 150vh;
+  }
+  .section-5--textbox {
+    display: block;
+    margin: -50px  auto;
+    text-align: center;
+    font-size: 0.8rem;
+}
+.staffPicsHolder {
+  margin-top: 50px;
+}
+.staffpics{
+  width: 200px;
+  height: 200px;
+  cursor: default;
+}
+.staffpics:hover {
+  transform: scale(1);
+  box-shadow: 0 0 0 0 var(--gold);
+}
+.section-5--textbox h2 {
+  background-color: var(--black);
+  padding: 2px 15px;
+  border-radius: 8px;
+}
+  .section-6 {
+    width: 100%;
+    height: 70px;
+    padding: 0;
+    margin-top: 30px;
+  }
+  .section-6 button {
+    padding: 5px 20px;
+  }
+  .section-6 .registerholder {
+    min-width: 100%;
+    margin-top: 0;
+    font-size: 1.1em;
+    line-height: 1.4;
+    padding: 0px 0px;
+    border-radius: 0;
+    padding: 30px;
+    box-shadow: 0 0 0 0;
+  }
+
+  
+
+  /* ==================== footer Responsiveness ====================== */
+  footer.footer {
+    padding: 100px 50px 70px;
+    height: auto;
+    overflow: hidden;
+    display: block;
+  }
+  .footer iframe,
+  .location {
+    display: none;
+  }
+  .footer h3 {
+    font-size: 1.1em;
+  }
+  .footer nav a {
+    font-size: 1em;
+    letter-spacing: 0;
+    text-align: justify;
+  }
+  .footer nav a:hover,
+  .footer nav p:hover {
+    transform: translateX(0px);
+  }
+  .phoneNumber {
+    font-size: 1em;
+  }
+  .email {
+    font-size: 1em;
+  }
+  
+}
+
+/* ----------------Menu responsiveness------------------- */
+@media only screen and (min-width: 641px) and (max-width: 1007px) {
+
+    .headline {
+        font-size: 1.8em;
+    }
+
+    .category a {
+        margin: 7px 30px;
+    }
+
+    .tags a {
+        padding: 5px 20px;
+    }
+  }
+  
+  @media only screen and (max-width: 640px) {
+    .headline {
+        font-size: 1.5em;
+    }
+    
+    div.left,  div.right {
+        transform: translateX(0%);
+    }
+    #smoothies,#food, #drinks {
+        margin-top: -70px;
+    } 
+
+    .menubtn {
+        top: 15px;
+    }
+
+    .menubtn-close{
+        top: 15px;
+        right: 30px;
+    }
+    .category a {
+        display: none;
+    }
+
+    .tags p {
+        font-size: 25px;
+    }
+    .tags a {
+        padding: 5px 10px;
+        font-size: 20px;
+    }
+
+    .menu{
+        display: block;
+    }
+
+    .menulist {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+  }
+
+  
+/* ---------------Service Responsiveness------------------- */
+
+@media only screen and (min-width: 1008px) and (max-width: 1200px) {
+    .navigbtn {
+        top: 15px;
+        right: 10px;
+      }
+     .menubtn i {
+        font-size: 25px;
+     }
+
+
+      div.logoS a img {
+        width: 65px;
+        margin-top: -12px;
+        
+      }
+      
+    .service-container .service-box {
+        width: calc(50% - 50px);
+        margin: 30px 0 20px;
+    }
+
+    .heading {
+        top: 10px;
+      }
+  }
+
+  .heading::after {
+    margin-left: -10px;
+  }
+
+  div.heading h1 {
+    font-size: 25px;
+    margin-top: 15px;
+  }
+  
+  @media only screen and (min-width: 641px) and (max-width: 1007px) {
+    .navigbtn {
+        top: 15px;
+        right: 15px;
+      }
+
+      .menubtn i {
+        font-size: 25px;
+      }
+
+      div.logoS a img {
+        width: 60px;
+        margin-top: 0px;
+      }
+
+    .service-container .service-box {
+        width: calc(50% - 20px);
+        margin: 20px 0;
+        padding: 70px 20px 30px;
+    }
+
+    div.heading h1 {
+        font-size: 25px;
+        margin-top: 35px;
+      }
+
+    .service-box h2 {
+        font-size: 3em;
+        left: 20px;
+        top: 70px;
+    }
+
+    .service-box:hover h2 {
+        transform: translateY(-95%);
+    } 
+
+    .heading {
+        top: 10px;
+      }
+  }
+  
+  @media only screen and (max-width: 640px) {
+    .navigbtn {
+        top: 15px;
+        right: 15px;
+      }
+      div.headline {
+        margin-top: 90px;
+      }
+      div.logoS a img {
+        width: 65px;
+        margin-top: -10px;
+        left: -35px;
+      }
+      .card:hover::before {
+        transform: scaleY(0);
+      }
+      .showcase-text {
+        height: 450px;
+      }
+      .showcase-text p {
+        text-align: center;
+        margin-top: -20px;
+      }
+      .card:hover p,
+      .card:hover h2 {
+        color: var(--gold);
+      }
+      .card:hover {
+        transform: translateY(0);
+        transform: scale(1.05);
+      }
+    .service-container {
+        padding: 80px 0 20px;
+    }
+    .service-container .service-box {
+        width: 100%;
+        margin: -5px 0;
+        padding: 70px 20px 25px;
+    }
+    .service-box h2 {
+        font-size: 2.5em;
+        left: 20px;
+        top: 70px;
+    }
+    .service-box:hover h2 {
+        transform: translateY(-110%);
+    } 
+    .heading {
+        top: 80px;
+      }
+  }
+  
+
+  
+/* ---------------Register Responsiveness------------------- */
+
+@media only screen and (min-width: 641px) and (max-width: 1007px) {
+  .container {
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+}
+.section-1 .aboutText {
+  margin-top: -30px;
+}
+.section-1 .aboutpics {
+  margin-top: 10px;
+}
+
+.title h2 {
+    font-size: 1.3em;
+}
+
+form .User-details .input-box{
+  width: 100%;
+}
+form .User-details .input-box:nth-of-type(2n - 1){
+  width: 100%;
+}
+div.input-box span {
+  font-size: 12px;
+}
+.User-details .input-box input{
+  height: 25px;
+  font-size: 12px;
+}
+
+div.gender label, div.training label {
+  font-size: 12px;
+}
+div.training select {
+  height: 25px;
+  font-size: 12px;
+}
+div.information {
+  width: 98%;
+  margin-top: 15px;
+}
+div.information  label {
+  font-size: 16px;
+  padding: 0px 6px;
+}
+textarea {
+  margin: 10px 0px 0px 6px;
+  max-width: 100%;
+  max-height: 80px;
+  padding: 8px;
+  font-size: 14px;
+}
+form .button{
+  margin: 5px 0px 35px;
+}
+
+form .button button{
+  height: 100%;
+  width: 98%;
+  padding: 5px;
+  font-size: 18px;
+}
+}
+
+@media only screen and (max-width: 640px) {
+  .container {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+}
+.section-1 {
+  height: 520px;
+}
+.section-1 .aboutText {
+  margin-top: 5px;
+}
+.title h2 {
+    font-size: 1.2em;
+}
+
+form .User-details .input-box{
+  width: 100%;
+}
+form .User-details .input-box:nth-of-type(2n - 1){
+  width: 100%;
+}
+div.input-box span {
+  font-size: 11px;
+}
+.User-details .input-box input{
+  height: 25px;
+  font-size: 11px;
+}
+
+div.gender label, div.training label {
+  font-size: 11px;
+}
+div.training select {
+  height: 25px;
+  font-size: 12px;
+}
+div.information {
+  width: 95%;
+  margin-top: 15px;
+}
+div.information  label {
+  font-size: 15px;
+  padding: 0px 6px;
+}
+textarea {
+  margin: 10px 0px 0px 6px;
+  max-width: 100%;
+  max-height: 60px;
+  padding: 8px;
+  font-size: 12px;
+}
+form .button{
+  margin: 10px 0px 35px;
+}
+
+form .button button{
+  height: 100%;
+  width: 95%;
+  padding: 5px;
+  font-size: 15px;
+}
+}
